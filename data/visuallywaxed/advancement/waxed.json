@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": "Rub it in!",
+    "description": [
+      "",
+      {
+        "text": "Use a honeycomb on an ",
+        "color": "white"
+      },
+      {
+        "text": "UNWAXED ",
+        "color": "gold",
+        "bold": false,
+        "underlined": true
+      },
+      {
+        "text": "Copper Golem of any oxidization level\n",
+        "color": "white"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "visuallywaxed:visuallywaxedgolems",
+  "criteria": {
+    "wax.golem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

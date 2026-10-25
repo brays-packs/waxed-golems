@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": "Watch the paint job!",
+	"description": [
+      "",
+      {
+        "text": "Use any axe on a ",
+        "color": "white"
+      },
+      {
+        "text": "WAXED ",
+        "color": "gold",
+        "bold": false,
+        "underlined": true
+      },
+      {
+        "text": "Copper Golem of any oxidization level\n",
+        "color": "white"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "visuallywaxed:visuallywaxedgolems",
+  "criteria": {
+    "unwax.golem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

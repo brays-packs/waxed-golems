@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:waxed_weathered_copper_golem_statue"
+        },
+        "title": "Visually Waxed Golems",
+        "description": [
+            "",
+            {
+                "text": "Give waxed Copper Golems a differentiating texture!\n",
+                "color": "white"
+            },
+			{
+                "text": "\n",
+                "color": "white"
+            },
+            {
+                "text": "modrinth.com/datapack/visually-waxed-golems",
+                "color": "dark_purple"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bray:utility",
+    "criteria": {
+        "bray.was.here": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
